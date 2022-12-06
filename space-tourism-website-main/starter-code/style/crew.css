@@ -1,0 +1,142 @@
+@media(max-width : 376px){
+    body{
+        background-image: url(../assets/crew/background-crew-mobile.jpg);
+
+    }
+}
+
+@media(min-width : 377px) and (max-width : 1439px){
+    body{
+        background-image: url(../assets/crew/background-crew-tablet.jpg);
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center; 
+        /* Background image doesn’t tile */ 
+        background-repeat: no-repeat; 
+        /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */ 
+        background-attachment: fixed;
+        /* This is what makes the background image rescale based on the container’s size */
+        background-size: cover; 
+        /* Set a background color that will be displayed while the background image is loading */ 
+        background-color: #464646; 
+
+    }   
+}
+
+@media(min-width : 1440px){
+    body{
+        background-image: url(../assets/crew/background-crew-desktop.jpg);
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center; 
+        /* Background image doesn’t tile */ 
+        background-repeat: no-repeat; 
+        /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */ 
+        background-attachment: fixed;
+        /* This is what makes the background image rescale based on the container’s size */
+        background-size: cover; 
+        /* Set a background color that will be displayed while the background image is loading */ 
+        background-color: #464646;
+        margin: 0;
+        overflow: hidden;
+
+    }
+
+    p>strong{
+        opacity: 25%;
+    }
+
+    .crew{
+        text-decoration: underline;
+        text-underline-offset : 40px;
+        text-decoration-thickness:3px;
+        text-decoration-color:white;
+    }
+
+    #meet{
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        font-size: 28px;
+        letter-spacing: 4.72px;
+        text-transform: uppercase;
+
+        margin-top: 116px;
+
+        margin-left: 166px;
+    }
+
+    #description{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        width: 491px;
+        margin-left: 163px;
+        margin-top: 153px;
+
+    }
+
+    #grad{
+        font-family: 'Bellefair', serif;
+        margin: 0;
+        font-size: 32px;
+        text-transform: uppercase;
+        color: #D0D6F9;
+    }
+
+    #name{
+        font-family: 'Bellefair', serif;
+        font-size: 56px;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 614px;
+
+    }
+
+    #bio{
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        line-height: 32px;
+        color: #D0D6F9;
+        width: 500px;
+    }
+
+
+
+    .others{
+        height: 15px;
+        width: 15px;
+        border-radius: 100px;
+    }
+
+    .spe, .pilot, .engi{
+        opacity: 17.44%;
+        background-color: #979797;
+
+    }
+
+    .commander{
+        background-color: white;
+    }
+
+    button{
+        background-color: transparent;
+        border: none;
+    }
+
+    .others:hover{
+        opacity: 50%;
+    }
+
+    #change{
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+/*
+        margin-top: 40px;
+*/
+        position: fixed;
+        bottom: 90px;
+    }
+
+
+}

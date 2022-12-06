@@ -1,0 +1,161 @@
+@media(max-width : 376px){
+    body{
+        background-image: url(../assets/destination/background-destination-mobile.jpg);
+
+    }
+}
+
+@media(min-width : 377px) and (max-width : 1439px){
+    body{
+        background-image: url(../assets/destination/background-destination-tablet.jpg);
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center; 
+        /* Background image doesn’t tile */ 
+        background-repeat: no-repeat; 
+        /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */ 
+        background-attachment: fixed;
+        /* This is what makes the background image rescale based on the container’s size */
+        background-size: cover; 
+        /* Set a background color that will be displayed while the background image is loading */ 
+        background-color: #464646; 
+
+    }   
+}
+
+@media(min-width : 1440px){
+    body{
+        background-image: url(../assets/destination/background-destination-desktop.jpg);
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center; 
+        /* Background image doesn’t tile */ 
+        background-repeat: no-repeat; 
+        /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */ 
+        background-attachment: fixed;
+        /* This is what makes the background image rescale based on the container’s size */
+        background-size: cover; 
+        /* Set a background color that will be displayed while the background image is loading */ 
+        background-color: #464646;
+        margin: 0;
+
+    }
+
+
+
+    p>strong{
+        opacity: 25%;
+    }
+
+    .destination{
+        text-decoration: underline;
+        text-underline-offset : 40px;
+        text-decoration-thickness:3px;
+        text-decoration-color:white;
+    }
+
+    #pick{
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        font-size: 28px;
+        letter-spacing: 4.72px;
+        text-transform: uppercase;
+        margin-top: 116px;
+        margin-left: 166px;
+    }
+
+    #image{
+        margin-left: 230px;
+        margin-top: 50px;
+    }
+
+    #description{
+        float: right;
+        width: 445px;
+        height: 472px;
+        margin-right: 161px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #planet{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+
+
+
+    .li_planet:hover{
+        text-decoration: underline;
+        text-underline-offset : 12px;
+        text-decoration-thickness:3px;
+        text-decoration-color:grey;
+    }
+
+    button{
+        background-color: transparent;
+        border: none;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 2.7px;
+        color: white;
+    }
+
+
+    #title{
+        font-family: 'Bellefair', sans-serif;
+        color: white;
+        font-size: 100px;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    #see{
+        color: white;
+        font-size: 18px;
+        font-family: 'Barlow', sans-serif;
+        line-height: 32px;
+        color: #D0D6F9;
+    }
+
+    #separation{
+        border: 1px solid #383B4B;
+        width: 100%;
+        margin-top: 54.01px;
+    }
+
+    #dt{
+        color: white;
+        display: flex;
+
+    }
+
+    #distance, #travel{
+        width: 200px;
+        height: 61px;
+        margin-right: 78px;
+
+    }
+
+    .exp{
+        font-family: 'Barlow Condensed', sans-serif;
+        letter-spacing: 2.36px;
+        font-size: 14px;
+        color: #D0D6F9;
+        text-transform: uppercase;
+    }
+
+    #dist, #time{
+        font-family: 'Bellefair', serif;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+}
+
+

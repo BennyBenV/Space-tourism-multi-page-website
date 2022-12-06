@@ -1,0 +1,11 @@
+.pilot{
+    background-color: white;
+    opacity: unset;
+}
+
+#victor{
+    float: right;
+    position: relative;
+    top: -187px;
+    right: 150px;
+}

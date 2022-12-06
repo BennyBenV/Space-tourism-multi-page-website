@@ -1,0 +1,13 @@
+/*
+.commander{
+    background-color: white;
+    opacity: unset;
+}
+*/
+
+#image{
+    float: right;
+    position: relative;
+    top: -240px;
+    right: 75px;
+}

@@ -1,0 +1,118 @@
+@media(max-width : 376px){
+    body{
+        background-image: url(../assets/home/background-home-mobile.jpg);
+
+    }
+}
+
+@media(min-width : 377px) and (max-width : 1439px){
+    body{
+        background-image: url(../assets/home/background-home-tablet.jpg);
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center; 
+        /* Background image doesn’t tile */ 
+        background-repeat: no-repeat; 
+        /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */ 
+        background-attachment: fixed;
+        /* This is what makes the background image rescale based on the container’s size */
+        background-size: cover; 
+        /* Set a background color that will be displayed while the background image is loading */ 
+        background-color: #464646; 
+
+    }
+}
+
+@media(min-width : 1440px){
+    body{
+        background-image: url(../assets/home/background-home-desktop.jpg);
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center; 
+        /* Background image doesn’t tile */ 
+        background-repeat: no-repeat; 
+        /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */ 
+        background-attachment: fixed;
+        /* This is what makes the background image rescale based on the container’s size */
+        background-size: cover; 
+        /* Set a background color that will be displayed while the background image is loading */ 
+        background-color: #464646;
+        margin: 0;
+
+    }
+
+
+    .home{
+        text-decoration: underline;
+        text-underline-offset : 40px;
+        text-decoration-thickness:3px;
+        text-decoration-color:white;
+    }
+    #text{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 450px;
+        height: 382px;
+        margin-top: 10%;
+        margin-left: 165px;
+
+    }
+
+
+
+    #so{
+        font-size: 28px;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #D0D6F9;
+        text-transform: uppercase;
+        letter-spacing: 4.72px;
+    }
+
+    #space{
+        text-transform: uppercase;
+        font-size: 150px;
+        margin: 0;
+        font-family: 'Bellefair', serif;
+        color: white;
+    }
+
+    #lets{
+        font-size: 18px;
+        color: #D0D6F9;
+        font-family: 'Barlow', sans-serif;
+        line-height: 32px;
+
+    }
+    /*---------------------------------------------------------------*/
+
+    #circle{
+        background-color: white;
+        color: black;
+        display: flex;
+        width: 274px;
+        height: 274px;
+        float: right;
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24%;
+        font-family: 'Bellefair', serif;
+        font-size: 32px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+
+
+
+    /*---------------------------------------------------------------*/
+
+    #bot{
+        display: flex;
+        flex-direction: row;
+        gap: 30%;
+    }
+
+    .line{
+        border: 5px solid white;
+    }
+}
